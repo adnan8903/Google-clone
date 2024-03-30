@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+i{
+    color: black;
+}
+.container {
+    display: flex;
+    margin: -30px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.imag {
+    display: block;
+    margin: 70px auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imag img {
+    background: transparent !important;
+}
+.myiconh{
+    display: flex;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+}
+.myiconha{
+    display: flex;
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+}
+
+.container .input {
+    width: 40vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background: transparent;
+    outline: none;
+    padding: 18px 35px;
+    font-size: 16.7px;
+}
+
+.container .input::placeholder {
+    color: black;
+}
+
+.btn {
+    display: inline;
+    position: relative;
+    right: 75px;
+    margin: 10px auto;
+    padding: 5px 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 1.6px solid black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btns {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 40px -28px 0 -28px;
+}
+
+.btn1,
+.btn2 {
+    margin-right: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    background:transparent;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+}
+
+.btnh {
+    border: 2px solid #d4d8db;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 50%;
+    height: 40px;
+    cursor: pointer;
+    width: 40px;
+}
+
+.btnn {
+    display: flex;
+    margin: 156px 0;
+    position: sticky;
+    justify-content: flex-end;
+    top: 0;
+}
+
+@media screen and (max-width: 348px) {
+    .imag img {
+        width: 60%;
+        margin-bottom: 20zpx;
+    }
+}
